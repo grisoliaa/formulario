@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <h1>
+            Pesquisa
+        </h1>
+
+        <form>
+
+            <div class="form-control">
+
+                <label for="nome">
+                    Nome
+                </label>
+                <input id="nome" placeholder="Digite seu nome" type="text"/> 
+
+            </div>  
+
+            <div class="form-control">
+
+                <label for="email">
+                    Email
+                </label>
+                <input id="email" placeholder="Digite seu email" type="email"/> 
+
+            </div> 
+
+            <div class="form-control">
+
+                <label for="idade">
+                    Idade
+                </label>
+                <input id="idade" placeholder="Digite sua idade" type="number"/> 
+
+            </div> 
+
+            <div class="form-control">
+
+                <label for="genero">
+                    Gênero
+                </label>
+                <select id="genero">
+                    
+                    <option>
+                        Masculino
+                    </option>
+
+                    <option>
+                        Feminino
+                    </option>
+
+                    <option>
+                        Prefiro não informar
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="form-control">
+                <h6>
+                    Você possui alguma ocupação?
+                </h6>
+
+                <label for="ocupacao-sim">
+                    <input type="radio" name="ocupacao" id="ocupacao-sim">
+                    Sim
+                    </input>
+
+                </label>
+
+                <label for="ocupacao-nao">
+                    <input type="radio" name="ocupacao" id="ocupacao-nao">
+                    Não
+                    </input>
+
+                </label>
+           
+            </div>
+           
+         <div class="form-control">
+            <h6>
+                Linguagens que você conhece <small>
+                (marque todas que você se aplica)  </small>
+            </h6>
+
+            <label for="linguagens-1">
+                    <input type="checkbox" name="linguagens" id="linguagens-1">
+                     HTML
+
+                    </input>
+            </label>
+
+            <label for="linguagens-2">
+                    <input type="checkbox" name="linguagens" id="linguagens-2">
+                    CSS
+
+                    </input>
+            </label>
+
+            <label for="linguagens-3">
+                    <input type="checkbox" name="linguagens" id="linguagens-3">
+                    JavaScript
+
+                    </input>
+                    
+
+
+            </label>
+
+         </div>
+
+         <div class="form-control">
+            <label for="comentario">
+                Algum comentário ou sugestão?
+
+            </label>
+
+                <textarea id="comentario">
+                </textarea>
+
+         </div>
+
+         <button>
+            Enviar
+         </button>
+
+        </form>
+    </body>
+</html>
